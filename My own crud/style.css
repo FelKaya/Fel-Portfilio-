@@ -1,0 +1,125 @@
+body{
+	background-color: black;
+	margin-right: 20px;
+}
+
+#crud {
+  font-family: Arial, Helvetica, sans-serif;
+border-collapse: separate;
+  width: 70%;
+  margin-left: 200px;
+  margin-top: 8px;
+padding:50px 0px 0px 0px;
+}
+ 
+.top-menu{
+background-color: white;
+width: 200px;
+}
+
+li, a{
+color: white;
+text-decoration-color: white;/*=====================menu bar nah=====*/
+display: inline;
+}
+
+ 
+
+#crud td, #crud th {
+  border: 2px solid #39e100;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+#crud tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+#crud tr:hover {
+	background-color: green;}
+
+#crud th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d30;
+  color: white;
+
+}
+/* menu bar=================================*/
+.top-menu{
+	border: solid;
+	float: right;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.top-menu a{
+margin-top: 20px;
+}
+
+
+header{
+	margin-top:  0; 
+
+}
+.top-menu a{
+word-spacing: 10px;
+text-decoration: none;
+color: black;
+
+}
+
+/* SSSSSIDE MENU ===============================================*/
+
+#menu div:hover{
+	background-color: green;
+}
+
+img{
+	border-radius: 45px; 
+	border: solid 1px #39e100; 
+	border-spacing: 20px; 
+	margin-top: 39px;
+	 margin-left: 35px;
+}
+
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 6px 6px 0; /* Rounded corners on the top right and bottom right side */
+margin-left: 139px;
+margin-top: 360px;
+border: 2px solid #00ff29;
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#profile {
+  top: 20px;
+  background-color: #04aa6d30;
+}
+
+#new-user {
+  top: 80px;
+  background-color: #04aa6d30; /* Blue */
+}
+
+#contact {
+  top: 140px;
+  background-color: #04aa6d30; /* Red */
+}
+
+#Logout {
+  top: 200px;
+  background-color: #04aa6d30 /* Light Black */
+}
